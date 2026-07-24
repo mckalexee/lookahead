@@ -106,8 +106,17 @@
     </div>
   </section>
 
-  <section class="game reveal" style="--accent:#C8842B">
-    <header class="game-head">
+  <nav class="game-tabs reveal" aria-label="Filter by game">
+    <div class="game-tabs-row">
+      <a class="tab" href="#all" data-tab="all">All</a>
+      <a class="tab" href="#wow-retail" data-tab="wow-retail" style="--accent:#C8842B">World of Warcraft</a>
+      <a class="tab" href="#pokemon-go" data-tab="pokemon-go" style="--accent:#3D9BE9">Pokémon GO</a>
+      <a class="tab" href="#pokopia" data-tab="pokopia" style="--accent:#6FB07A">Pokopia</a>
+    </div>
+  </nav>
+
+  <section class="game reveal" id="game-wow-retail" data-game="wow-retail" style="--accent:#C8842B">
+    <header class="game-head" title="Show only this game">
       <h2 class="game-name">World of Warcraft</h2>
       <span class="game-tag">Retail</span>
     </header>
@@ -257,8 +266,8 @@
       <li>Sep 8-15: PvP Brawl: Southshore vs Tarren Mill</li>
     </ul>
   </section>
-  <section class="game reveal" style="--accent:#3D9BE9">
-    <header class="game-head">
+  <section class="game reveal" id="game-pokemon-go" data-game="pokemon-go" style="--accent:#3D9BE9">
+    <header class="game-head" title="Show only this game">
       <h2 class="game-name">Pokémon GO</h2>
       <span class="game-tag">Niantic</span>
     </header>
@@ -441,8 +450,8 @@
       <li>Sep 10, 10am local: GO Pass: August rewards expire, claim before then</li>
     </ul>
   </section>
-  <section class="game reveal" style="--accent:#6FB07A">
-    <header class="game-head">
+  <section class="game reveal" id="game-pokopia" data-game="pokopia" style="--accent:#6FB07A">
+    <header class="game-head" title="Show only this game">
       <h2 class="game-name">Pokopia</h2>
       <span class="game-tag">v1.1.1</span>
     </header>

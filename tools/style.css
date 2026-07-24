@@ -274,9 +274,70 @@ h1, h2, h3 { text-wrap: balance; }
   line-height: 1.4;
 }
 
+/* ---------- Game tabs ---------- */
+
+.game-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-top: 56px;
+  background: color-mix(in srgb, var(--bg) 84%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.game-tabs-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 6px;
+}
+
+.tab {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-3);
+  text-decoration: none;
+  padding: 12px 14px 11px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  white-space: nowrap;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent, var(--gold));
+  margin-right: 9px;
+  vertical-align: 1px;
+  opacity: 0.45;
+  transition: opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tab:hover { color: var(--ink-2); }
+
+.tab.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--accent, var(--gold));
+}
+
+.tab.is-active::before {
+  opacity: 1;
+  box-shadow: 0 0 8px 0 color-mix(in srgb, var(--accent, var(--gold)) 70%, transparent);
+}
+
 /* ---------- Game sections ---------- */
 
 .game { margin-top: 64px; }
+
+.game.is-hidden { display: none; }
 
 .game-head {
   display: flex;
@@ -285,6 +346,12 @@ h1, h2, h3 { text-wrap: balance; }
   padding-left: 18px;
   position: relative;
   margin-bottom: 8px;
+}
+
+html.js .game-head { cursor: pointer; }
+html.js .game-head:hover .game-tag {
+  color: var(--ink-2);
+  border-color: color-mix(in srgb, var(--accent, var(--gold)) 60%, var(--line));
 }
 
 .game-head::before {
@@ -588,7 +655,7 @@ html.js .reveal.revealed {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   html.js .reveal { opacity: 1; transform: none; transition: none; }
-  .needs-card, .event-media img { transition: none; }
+  .needs-card, .event-media img, .tab, .tab::before { transition: none; }
   .needs-card:hover { transform: none; }
   .event:hover .event-media img { transform: none; }
 }

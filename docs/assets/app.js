@@ -89,6 +89,51 @@
   tick();
   setInterval(tick, 60000);
 
+  /* Game filter tabs. State lives in the URL hash (#pokemon-go) so a
+     filtered view survives reload and can be linked. "Needs you" and the
+     changelog always stay visible; only game sections filter. */
+  var tabs = document.querySelectorAll(".game-tabs .tab");
+  var games = document.querySelectorAll(".game[data-game]");
+
+  function applyFilter() {
+    if (!tabs.length) return;
+    var hash = location.hash.replace("#", "") || "all";
+    var known = false;
+    for (var i = 0; i < tabs.length; i++) {
+      if (tabs[i].getAttribute("data-tab") === hash) known = true;
+    }
+    if (!known) hash = "all";
+    for (var i = 0; i < tabs.length; i++) {
+      var on = tabs[i].getAttribute("data-tab") === hash;
+      tabs[i].classList.toggle("is-active", on);
+      if (on) tabs[i].setAttribute("aria-current", "true");
+      else tabs[i].removeAttribute("aria-current");
+    }
+    for (var i = 0; i < games.length; i++) {
+      var show = hash === "all" || games[i].getAttribute("data-game") === hash;
+      games[i].classList.toggle("is-hidden", !show);
+      if (show) games[i].classList.add("revealed");
+    }
+  }
+
+  window.addEventListener("hashchange", applyFilter);
+  applyFilter();
+
+  /* Clicking a game header focuses that game; clicking again shows all. */
+  if (tabs.length) {
+    for (var i = 0; i < games.length; i++) {
+      (function (section) {
+        var head = section.querySelector(".game-head");
+        if (!head) return;
+        head.addEventListener("click", function (e) {
+          if (e.target.closest("a")) return;
+          var slug = section.getAttribute("data-game");
+          location.hash = location.hash === "#" + slug ? "all" : slug;
+        });
+      })(games[i]);
+    }
+  }
+
   /* Scroll reveal. Skipped entirely under reduced motion: the CSS also
      neutralizes .reveal there, so content is never left hidden. */
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

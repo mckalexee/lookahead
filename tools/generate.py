@@ -57,6 +57,28 @@ UNRELIABLE_URL = re.compile(
     r"cdn\.discordapp\.com/(ephemeral-)?attachments)", re.I)
 
 
+def game_slug(key):
+    return re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
+
+
+def render_tabs(games):
+    if len(games) < 2:
+        return ""
+    tabs = ['      <a class="tab" href="#all" data-tab="all">All</a>']
+    for game in games:
+        key = game["game"]
+        meta = GAME_META.get(key, {})
+        tabs.append(
+            '      <a class="tab" href="#%s" data-tab="%s" style="--accent:%s">%s</a>'
+            % (game_slug(key), game_slug(key),
+               esc(meta.get("accent", "#E9B949")),
+               esc(meta.get("display", key))))
+    return (
+        '  <nav class="game-tabs reveal" aria-label="Filter by game">\n'
+        '    <div class="game-tabs-row">\n%s\n    </div>\n'
+        '  </nav>\n' % "\n".join(tabs))
+
+
 def esc(s):
     # Style rule: em/en dashes never reach the page, even if research
     # slips one into data.json.
@@ -249,8 +271,9 @@ def render_game(run_date, game, skipped, counts):
         tag = "v" + game["current_version"].lstrip("v")
 
     parts = [
-        '  <section class="game reveal" style="--accent:%s">' % meta["accent"],
-        '    <header class="game-head">',
+        '  <section class="game reveal" id="game-%s" data-game="%s" style="--accent:%s">'
+        % (game_slug(key), game_slug(key), meta["accent"]),
+        '    <header class="game-head" title="Show only this game">',
         '      <h2 class="game-name">%s</h2>' % esc(meta["display"]),
     ]
     if tag:
@@ -310,11 +333,13 @@ def main():
     skipped = []
     counts = {"events": 0}
 
+    all_games = [g for cat in data.get("categories", [])
+                 for g in cat.get("games", [])]
     content = [render_changelog(data.get("changelog")),
-               render_needs(run_date, data.get("needs_you") or [])]
-    for cat in data.get("categories", []):
-        for game in cat.get("games", []):
-            content.append(render_game(run_date, game, skipped, counts))
+               render_needs(run_date, data.get("needs_you") or []),
+               render_tabs(all_games)]
+    for game in all_games:
+        content.append(render_game(run_date, game, skipped, counts))
 
     page = (TOOLS / "template.html").read_text(encoding="utf-8")
     page = (page

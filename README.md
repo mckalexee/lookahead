@@ -2,7 +2,7 @@
 
 A self-updating gaming almanac: a five-week lookahead across tracked games (currently World of Warcraft Retail, Pokemon GO, and Pokopia), rendered as a dark, editorial web page and served by GitHub Pages.
 
-Each week an agent researches what's coming up (per [INSTRUCTIONS.md](INSTRUCTIONS.md)), rewrites `data.json`, regenerates the page, and commits. Between rebuilds the page keeps itself current in the browser: countdowns tick, events flip to "active" when they start and grey out when they end.
+Each week an agent researches what's coming up (per [INSTRUCTIONS.md](INSTRUCTIONS.md)), rewrites `data.json`, regenerates the page, and commits. Between rebuilds the page keeps itself current in the browser: countdowns tick, events flip to "active" when they start and grey out when they end. A sticky tab rail filters the feed to a single game (state lives in the URL hash, so filtered views are linkable); "Needs you" stays visible in every view.
 
 ## Repo layout
 
@@ -45,7 +45,7 @@ A separate scheduled agent (wired up outside this repo) follows `INSTRUCTIONS.md
 
 1. Edit the Tracked items and Sources sections of `INSTRUCTIONS.md`.
 2. If it's a new game, add its accent color and calendar link to `GAME_META` in `tools/generate.py` (and a tag in `GAME_TAGS` if it should show a static pill).
-3. The next weekly run picks it up; game sections render in the order they appear in `data.json`.
+3. The next weekly run picks it up; game sections render in the order they appear in `data.json`, and the game's filter tab (in its accent color) is generated automatically.
 
 ## GitHub Pages setup (one-time, manual)
 
