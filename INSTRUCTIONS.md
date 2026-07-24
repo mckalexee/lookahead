@@ -45,7 +45,7 @@ Research fresh every run. Verify dates; never guess. Prefer official sources; re
 Some sources are JS-heavy or block plain fetches (wowhead.com, pokemon.com, pokopia.pokemon.com). Fetch those through the Markdown Proxy MCP server (claude.ai Markdown Proxy), which renders a URL and returns its content as markdown. There is no browser in the update environment; do not assume one.
 
 - WoW: wowhead.com/events (JS-heavy, use the proxy), cross-check darmory.com/events/calendar (plain HTML, US dates), news.blizzard.com/en-us/world-of-warcraft, Wowhead Blue Tracker.
-- Pokemon GO: leekduck.com/events (enumerate the whole window), pokemongo.com/en/news (read the fine print; use the proxy if blocked), Pokemon GO Hub monthly page.
+- Pokemon GO: pokemongo.com/en/news is the priority source; when an item has an official news post, take dates, times, prices, and fine print from it. It requires no sign-in; if a fetch looks like a login wall or empty shell, retry through the Markdown Proxy (`fresh: true`) instead of skipping the source. Fall back to leekduck.com/events when an item has no official post yet (it is also the fastest way to enumerate the whole window), and cross-check Pokemon GO Hub's monthly page.
 - Pokopia: pokopia.pokemon.com/en-us (news, /expansion/, /update/; use the proxy), serebii.net/pokemonpokopia (events and patch history), Bulbapedia current events.
 - Images: for each item with its own dedicated page, capture the exact `og:image` URL (or a relevant in-page hero image). Never construct or guess an image URL. Set `image_reliable` to false for signed or expiring URLs.
 
