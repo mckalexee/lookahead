@@ -68,7 +68,9 @@ Before overwriting `data.json`, diff the new dataset against the previous commit
 ## "Needs you" rule
 
 - Only items where inaction has a cost: claim-by deadlines, buy-or-freeze decisions, expiring rewards or currency, ticket-sale windows, season last-calls.
-- Max 8 cards, sorted by date. Each has a source link.
+- Include every item that qualifies; there is no count cap and a real deadline is never dropped for space (the grid just wraps).
+- If the list grows past a dozen, re-check each item against the inaction-has-cost bar (routine weekly rhythm is not a deadline). Tighten the criteria, never truncate the list.
+- Sorted by date. Each has a source link.
 - Must never contradict the timeline: same dates, same facts.
 
 ## Style rules

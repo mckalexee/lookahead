@@ -37,7 +37,10 @@
      "urgent": false, "estimate": false, "link": "https://news.blizzard.com/en-us/article/24264422/soar-through-turbulent-timeways-june-30-to-august-11"},
     {"date": "2026-08-11", "date_display": "By 12.1 (est.)", "game": "WoW",
      "action": "Farm double-rate Illusionary Coins and spend them on Decor Duels rewards before patch 12.1 removes the event",
-     "urgent": false, "estimate": true, "link": "https://news.blizzard.com/en-us/article/24271369/join-the-final-surge-for-decor-duels"}
+     "urgent": false, "estimate": true, "link": "https://news.blizzard.com/en-us/article/24271369/join-the-final-surge-for-decor-duels"},
+    {"date": "2026-08-16", "date_display": "Aug 16", "game": "Pokemon GO",
+     "action": "Evolve Nickit by 9pm local on Community Day to get Thievul with Icy Wind",
+     "urgent": false, "estimate": false, "link": "https://leekduck.com/events/august-communityday2026/"}
   ],
   "categories": [
     {"name": "Gaming", "games": [

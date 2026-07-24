@@ -2,7 +2,7 @@
 
 A self-updating gaming almanac: a five-week lookahead across tracked games (currently World of Warcraft Retail, Pokemon GO, Pokopia, and Aniimo), rendered as a dark, editorial web page and served by GitHub Pages.
 
-Each week an agent researches what's coming up (per [INSTRUCTIONS.md](INSTRUCTIONS.md)), rewrites `data.json`, regenerates the page, and commits. Between rebuilds the page keeps itself current in the browser: countdowns tick, events flip to "active" when they start and grey out when they end. A sticky tab rail filters the feed to a single game (state lives in the URL hash, so filtered views are linkable); "Needs you" stays visible in every view.
+Each week an agent researches what's coming up (per [INSTRUCTIONS.md](INSTRUCTIONS.md)), rewrites `data.json`, regenerates the page, and commits. Between rebuilds the page keeps itself current in the browser: countdowns tick, events flip to "active" when they start and grey out when they end. A sticky tab rail filters the feed to a single game (state lives in the URL hash, so filtered views are linkable); "Needs you" stays visible in every view and never drops a qualifying deadline.
 
 ## Repo layout
 

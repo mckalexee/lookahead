@@ -187,7 +187,7 @@ def render_needs(run_date, items):
     if not items:
         return ""
     cards = []
-    for it in sorted(items, key=lambda x: x["date"])[:8]:
+    for it in sorted(items, key=lambda x: x["date"]):
         classes = ["needs-card"]
         if it.get("urgent"):
             classes.append("urgent")
@@ -355,7 +355,7 @@ def main():
     (DOCS / "index.html").write_text(page, encoding="utf-8")
 
     print("Rendered %d timeline items, %d needs-you cards -> docs/index.html"
-          % (counts["events"], min(len(data.get("needs_you") or []), 8)))
+          % (counts["events"], len(data.get("needs_you") or [])))
     if skipped:
         print("Images skipped or noted:")
         for line in skipped:
