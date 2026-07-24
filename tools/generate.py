@@ -58,7 +58,10 @@ UNRELIABLE_URL = re.compile(
 
 
 def esc(s):
-    return html.escape(str(s), quote=True)
+    # Style rule: em/en dashes never reach the page, even if research
+    # slips one into data.json.
+    return html.escape(str(s).replace("–", "-").replace("—", "-"),
+                       quote=True)
 
 
 def days_from_run(run_date, iso):
