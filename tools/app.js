@@ -119,7 +119,7 @@
   window.addEventListener("hashchange", applyFilter);
   applyFilter();
 
-  /* Clicking a game header focuses that game; clicking again shows all. */
+  /* Clicking a game header focuses that game. The All tab is the way back. */
   if (tabs.length) {
     for (var i = 0; i < games.length; i++) {
       (function (section) {
@@ -127,8 +127,7 @@
         if (!head) return;
         head.addEventListener("click", function (e) {
           if (e.target.closest("a")) return;
-          var slug = section.getAttribute("data-game");
-          location.hash = location.hash === "#" + slug ? "all" : slug;
+          location.hash = section.getAttribute("data-game");
         });
       })(games[i]);
     }
