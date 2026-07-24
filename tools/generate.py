@@ -190,7 +190,7 @@ def render_needs(run_date, items):
         d = days_from_run(run_date, it["date"])
         count = "past" if d < 0 else "today" if d == 0 else "%dd" % d
         cards.append(
-            '      <a class="%s" href="%s" data-deadline="%s">\n'
+            '      <a class="%s" href="%s" target="_blank" rel="noopener" data-deadline="%s">\n'
             '        <span class="needs-arrow">&#8599;</span>\n'
             '        <div class="needs-count" data-countdown>%s</div>\n'
             '        <div class="needs-date">%s</div>\n'
@@ -221,7 +221,7 @@ def render_event(run_date, item, skipped):
         attrs += ' data-end="%s"' % esc(item["end"])
 
     head = ['<span class="state-dot" aria-hidden="true"></span>']
-    head.append('<a class="event-title" href="%s">%s</a>'
+    head.append('<a class="event-title" href="%s" target="_blank" rel="noopener">%s</a>'
                 % (esc(item["link"]), esc(item["title"])))
     if item.get("paid") and item.get("price"):
         head.append('<span class="pill pill-price">%s</span>' % esc(item["price"]))
@@ -287,7 +287,7 @@ def render_game(run_date, game, skipped, counts):
     if not timeline and not rhythm and not past:
         parts.append(
             '    <div class="game-empty">Nothing in the next month. '
-            'See the <a href="%s">events calendar</a>.'
+            'See the <a href="%s" target="_blank" rel="noopener">events calendar</a>.'
             '<span class="as-of">as of %s; %s</span></div>'
             % (esc(meta["calendar"]),
                esc(run_date.strftime("%b %-d, %Y")),
