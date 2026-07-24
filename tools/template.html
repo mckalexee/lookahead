@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lookahead · Weekly Gaming Almanac</title>
+<meta name="description" content="A five-week lookahead across tracked games: events, deadlines, and what needs you. Updated weekly.">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead-main">
+      <p class="eyebrow">Weekly Almanac &middot; Gaming</p>
+      <h1 class="wordmark">Lookahead</h1>
+      <p class="subtitle">The next five weeks in the games you play: events, deadlines, and what needs you.</p>
+    </div>
+    <dl class="masthead-meta">
+      <div><dt>Window</dt><dd>{{WINDOW_DISPLAY}}</dd></div>
+      <div><dt>Updated</dt><dd>{{UPDATED_DISPLAY}}</dd></div>
+      <div><dt>Refresh</dt><dd data-next-refresh>weekly, Mon</dd></div>
+    </dl>
+  </header>
+
+  <div class="legend">
+    <span><span class="g-live">&#9679;</span> active now</span>
+    <span><span class="g-up">&#9675;</span> upcoming</span>
+    <span><span class="g-est">&#9888;</span> estimate</span>
+    <span><span class="g-paid">$</span> paid</span>
+    <span class="legend-note">All dates US region</span>
+  </div>
+
+{{CONTENT}}
+
+  <footer class="footer">
+    Compiled from official announcements and community event trackers, verified against
+    primary sources each run. Items are removed once they end. Dates reflect the US region.
+  </footer>
+
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
