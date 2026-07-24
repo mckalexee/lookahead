@@ -44,11 +44,17 @@ GAME_META = {
         "display": "Pokopia",
         "calendar": "https://pokopia.pokemon.com/en-us/",
     },
+    "Aniimo": {
+        "accent": "#4EC3B5",
+        "display": "Aniimo",
+        "calendar": "https://www.aniimo.com/newslist",
+    },
 }
 
 GAME_TAGS = {
     "WoW (Retail)": "Retail",
     "Pokemon GO": "Niantic",
+    "Aniimo": "Pawprint",
 }
 
 # Signed or expiring URLs: the image would rot, so leave the item text-only.

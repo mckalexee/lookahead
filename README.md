@@ -1,6 +1,6 @@
 # Lookahead
 
-A self-updating gaming almanac: a five-week lookahead across tracked games (currently World of Warcraft Retail, Pokemon GO, and Pokopia), rendered as a dark, editorial web page and served by GitHub Pages.
+A self-updating gaming almanac: a five-week lookahead across tracked games (currently World of Warcraft Retail, Pokemon GO, Pokopia, and Aniimo), rendered as a dark, editorial web page and served by GitHub Pages.
 
 Each week an agent researches what's coming up (per [INSTRUCTIONS.md](INSTRUCTIONS.md)), rewrites `data.json`, regenerates the page, and commits. Between rebuilds the page keeps itself current in the browser: countdowns tick, events flip to "active" when they start and grey out when they end. A sticky tab rail filters the feed to a single game (state lives in the URL hash, so filtered views are linkable); "Needs you" stays visible in every view.
 
@@ -64,11 +64,11 @@ A separate scheduled agent (wired up outside this repo) follows `INSTRUCTIONS.md
   "last_updated_display": "Fri, Jul 24, 2026",
   "changelog": null,                       // or {"since":"Jul 17","lines":[{"verb":"+|→|−","text":"..."}]}
   "needs_you": [
-    {"date":"YYYY-MM-DD","date_display":"Aug 1","game":"WoW|Pokemon GO|Pokopia",
+    {"date":"YYYY-MM-DD","date_display":"Aug 1","game":"WoW|Pokemon GO|Pokopia|Aniimo",
      "action":"one action clause","urgent":false,"estimate":false,"link":"https://..."}
   ],
   "categories": [
-    {"name":"Gaming","games":[ /* game objects; order: WoW (Retail), Pokemon GO, Pokopia */ ]}
+    {"name":"Gaming","games":[ /* game objects; order: WoW (Retail), Pokemon GO, Pokopia, Aniimo */ ]}
   ]
 }
 ```
@@ -77,7 +77,7 @@ Each game object:
 
 ```jsonc
 {
-  "game": "WoW (Retail)" | "Pokemon GO" | "Pokopia",
+  "game": "WoW (Retail)" | "Pokemon GO" | "Pokopia" | "Aniimo",
   "typical_lead_time": "string, used in the empty-state note",
   "current_version": "1.1.1",              // Pokopia only; shown as the tag pill
   "timeline": [

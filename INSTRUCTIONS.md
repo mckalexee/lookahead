@@ -38,6 +38,13 @@ This file is the authoritative guide for the weekly update. Follow it exactly. T
 - DLC and expansion roadmap items: price, on-sale status, early-purchase bonus deadlines.
 - Confirmed and official only. No past, rumored, or datamined items.
 
+### Aniimo
+- Pre-launch (launch window Q3 2026): beta and test windows with start, end, and data-wipe notes; carry-forward events tied to a test (for example egg-sealing keepsakes) with their deadlines.
+- Launch timing: track the announced window as an estimate until Pawprint publishes a date, then as confirmed.
+- Pre-registration milestone rewards and any pre-order or early-purchase bonuses with deadlines.
+- Once launched: version updates, limited-time events, paid passes and pricing, claim deadlines.
+- Dates from official Pawprint or FunPlus posts only. Creator-program news only when it has a player-facing deadline.
+
 ## Sources
 
 Research fresh every run. Verify dates; never guess. Prefer official sources; reputable trackers are OK; skip SEO and speculation sites unless corroborated.
@@ -47,6 +54,7 @@ Some sources are JS-heavy or block plain fetches (wowhead.com, pokemon.com, poko
 - WoW: wowhead.com/events (JS-heavy, use the proxy), cross-check darmory.com/events/calendar (plain HTML, US dates), news.blizzard.com/en-us/world-of-warcraft, Wowhead Blue Tracker.
 - Pokemon GO: pokemongo.com/en/news is the priority source; when an item has an official news post, take dates, times, prices, and fine print from it. It requires no sign-in; if a fetch looks like a login wall or empty shell, retry through the Markdown Proxy (`fresh: true`) instead of skipping the source. Fall back to leekduck.com/events when an item has no official post yet (it is also the fastest way to enumerate the whole window), and cross-check Pokemon GO Hub's monthly page.
 - Pokopia: pokopia.pokemon.com/en-us (news, /expansion/, /update/; use the proxy), serebii.net/pokemonpokopia (events and patch history), Bulbapedia current events.
+- Aniimo: aniimo.com/newslist is the official news feed. The article list only renders in the proxy's browser mode (a plain fetch returns an empty shell); individual detail pages (aniimo.com/newslist/detail/NNNNNN) work with a plain fetch. Cross-check store.steampowered.com/app/4126040 and funplus.com news.
 - Images: for each item with its own dedicated page, capture the exact `og:image` URL (or a relevant in-page hero image). Never construct or guess an image URL. Set `image_reliable` to false for signed or expiring URLs.
 
 ## Changelog rule
@@ -77,7 +85,7 @@ Write `data.json` at the repo root, matching the schema in README.md exactly. Ke
 - `run_date`, `window_start` (= run date), `window_end` (= run date + 35 days), plus `window_display` and `last_updated_display` strings.
 - Every timeline item gets `start` and `end` (ISO dates) whenever known; they drive the live dots and countdowns in the viewer's browser. An item with neither stays a static estimate.
 - `estimate: true` items must carry an `estimate_basis` (one mono line, for example "Based on last year's schedule").
-- Game order inside the Gaming category: WoW (Retail), Pokemon GO, Pokopia.
+- Game order inside the Gaming category: WoW (Retail), Pokemon GO, Pokopia, Aniimo.
 - A game with nothing in the window keeps its object with empty lists; the page shows an empty-state callout using `typical_lead_time`.
 
 ## Build and publish

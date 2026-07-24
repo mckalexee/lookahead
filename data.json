@@ -7,13 +7,16 @@
   "changelog": {
     "since": "Jul 24",
     "lines": [
-      {"verb": "→", "text": "Turbulent Timeways corrected: it is a six week event, Jun 30 to Aug 11, ending on Dragonflight Timewalking"},
+      {"verb": "+", "text": "Aniimo joins the almanac: closed beta ends Jul 25, global launch tracked for Q3 2026"},
       {"verb": "→", "text": "Patch 12.1 estimate firmer: the PTR is flagged release candidate and PTR data slots the Tidebound Grotto raid lair for Aug 18"},
       {"verb": "→", "text": "GO Fest Sunday Raid Makeup (Jul 26) expanded to all players worldwide with up to 12 free Raid Passes"},
       {"verb": "+", "text": "Ultra Unlock anniversary event pass rewards must be claimed by Jul 29 at 7:59pm local"}
     ]
   },
   "needs_you": [
+    {"date": "2026-07-25", "date_display": "Jul 25", "game": "Aniimo",
+     "action": "Seal one keepsake Aniimo in the Bond Pact event before NA beta servers close at 11:59 a.m. UTC-4 to reclaim it at launch",
+     "urgent": true, "estimate": false, "link": "https://www.aniimo.com/newslist/detail/100041"},
     {"date": "2026-07-26", "date_display": "Jul 26", "game": "Pokemon GO",
      "action": "Finish Ozone Ascent Timed Research and claim the Meteorite and Rayquaza rewards by 8pm local",
      "urgent": true, "estimate": false, "link": "https://leekduck.com/events/ozone-ascent-2026/"},
@@ -34,10 +37,7 @@
      "urgent": false, "estimate": false, "link": "https://news.blizzard.com/en-us/article/24264422/soar-through-turbulent-timeways-june-30-to-august-11"},
     {"date": "2026-08-11", "date_display": "By 12.1 (est.)", "game": "WoW",
      "action": "Farm double-rate Illusionary Coins and spend them on Decor Duels rewards before patch 12.1 removes the event",
-     "urgent": false, "estimate": true, "link": "https://news.blizzard.com/en-us/article/24271369/join-the-final-surge-for-decor-duels"},
-    {"date": "2026-08-16", "date_display": "Aug 16", "game": "Pokemon GO",
-     "action": "Evolve Nickit by 9pm local on Community Day to get Thievul with Icy Wind",
-     "urgent": false, "estimate": false, "link": "https://leekduck.com/events/august-communityday2026/"}
+     "urgent": false, "estimate": true, "link": "https://news.blizzard.com/en-us/article/24271369/join-the-final-surge-for-decor-duels"}
   ],
   "categories": [
     {"name": "Gaming", "games": [
@@ -284,7 +284,30 @@
        "weekly_rhythm": [],
        "just_past_window": [
         "Aug 29-30: PokemonXP and the 2026 Pokemon World Championships continue in San Francisco, Bubbly Basin demo playable at the Nintendo booth"
-       ]}
+       ]},
+      {"game": "Aniimo",
+       "typical_lead_time": "official news posts land 1-2 weeks ahead; global launch is tracked for Q3 2026",
+       "timeline": [
+        {"state": "active", "start": "2026-07-09", "end": "2026-07-25", "date_display": "Through Jul 25",
+         "title": "Global Closed Beta: final day",
+         "detail": "NA servers close Jul 25 at 11:59 a.m. UTC-4 and all test data is wiped, so wrap up your run through Idyll.",
+         "paid": false, "price": null, "estimate": false, "estimate_basis": null,
+         "link": "https://www.aniimo.com/newslist/detail/100046", "image_url": null, "image_reliable": false},
+        {"state": "active", "start": "2026-07-24", "end": "2026-07-25", "date_display": "Jul 24-25",
+         "title": "Bond Pact: Seal Your Aniimo",
+         "detail": "Seal one favorite Aniimo in an egg (3 swaps allowed) before the beta ends, then reclaim it at launch by logging in with the same account and channel.",
+         "paid": false, "price": null, "estimate": false, "estimate_basis": null,
+         "link": "https://www.aniimo.com/newslist/detail/100041", "image_url": null, "image_reliable": false},
+        {"state": "upcoming", "start": null, "end": null, "date_display": "Q3 2026",
+         "title": "Global launch",
+         "detail": "Aniimo launches free-to-play on PS5, Xbox Series X|S, Steam, Epic, iOS, and Android; pre-register on any platform for launch milestone rewards.",
+         "paid": false, "price": null, "estimate": true,
+         "estimate_basis": "Publisher-confirmed Q3 2026 window; no launch date announced as of Jul 24",
+         "link": "https://www.aniimo.com/",
+         "image_url": "https://kg-web-cdn.akamaized.net/master/official-website/worldx_office_frontend/images/ogImage.png", "image_reliable": true}
+       ],
+       "weekly_rhythm": [],
+       "just_past_window": []}
     ]}
   ]
 }
