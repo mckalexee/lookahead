@@ -21,6 +21,13 @@ This file is the authoritative guide for the weekly update. Follow it exactly. T
 - Patches and content updates in the window: key items only (new zones, raids, major systems, big events). No routine hotfix or class-tuning lists.
 - Season timing: last-chance-for-Season-N warnings. Label estimate vs confirmed clearly.
 
+### WoW (Forever)
+- Blizzard's Classic+ version of World of Warcraft, launching November 4, 2026 (3:00 p.m. PST). Pre-launch: beta and test windows with start, end, and access notes (opt-in invites, or bundle purchase); launch timing as confirmed once Blizzard posts it.
+- Pre-purchase bundles (Skyborne Heroic Pack, Skyborne Epic Pack, Warcraft Forever Collection) and the Collector's Edition: price, what is limited-time, and any deadline for early-purchase bonuses or name reservation.
+- Once launched: content phases and raid unlocks, in-game holidays and events, patches with key items only, and any limited-time shop items or claim deadlines.
+- Dates from official Blizzard posts (news.blizzard.com, worldofwarcraft.blizzard.com) only; Wowhead's Forever section is fine for enumeration but confirm dates against the Blizzard post.
+- Forever items belong in this section, not under WoW (Retail). Needs-you entries for Forever use `"game": "WoW Forever"`.
+
 ### Pokemon GO
 - 5-star and Shadow raid rotations with dates and Raid Hour times.
 - The weekly rhythm: Spotlight Hours with the bonus (note the season's day of week), Max Monday, GO Battle League rotation.
@@ -52,6 +59,7 @@ Research fresh every run. Verify dates; never guess. Prefer official sources; re
 Some sources are JS-heavy or block plain fetches (wowhead.com, pokemon.com, pokopia.pokemon.com). Fetch those through the Markdown Proxy MCP server (claude.ai Markdown Proxy), which renders a URL and returns its content as markdown. There is no browser in the update environment; do not assume one.
 
 - WoW: wowhead.com/events (JS-heavy, use the proxy), cross-check darmory.com/events/calendar (plain HTML, US dates), news.blizzard.com/en-us/world-of-warcraft, Wowhead Blue Tracker.
+- WoW (Forever): news.blizzard.com/en-us/world-of-warcraft and worldofwarcraft.blizzard.com/en-us/news are the official sources; wowhead.com/forever (JS-heavy, use the proxy) and its Blue Tracker for enumeration; gear.blizzard.com for the Collector's Edition.
 - Pokemon GO: pokemongo.com/en/news is the priority source; when an item has an official news post, take dates, times, prices, and fine print from it. It requires no sign-in; if a fetch looks like a login wall or empty shell, retry through the Markdown Proxy (`fresh: true`) instead of skipping the source. Fall back to leekduck.com/events when an item has no official post yet (it is also the fastest way to enumerate the whole window), and cross-check Pokemon GO Hub's monthly page.
 - Pokopia: pokopia.pokemon.com/en-us (news, /expansion/, /update/; use the proxy), serebii.net/pokemonpokopia (events and patch history), Bulbapedia current events.
 - Aniimo: aniimo.com/newslist is the official news feed. The article list only renders in the proxy's browser mode (a plain fetch returns an empty shell); individual detail pages (aniimo.com/newslist/detail/NNNNNN) work with a plain fetch. Cross-check store.steampowered.com/app/4126040 and funplus.com news.
@@ -87,7 +95,7 @@ Write `data.json` at the repo root, matching the schema in README.md exactly. Ke
 - `run_date`, `window_start` (= run date), `window_end` (= run date + 35 days), plus `window_display` and `last_updated_display` strings.
 - Every timeline item gets `start` and `end` (ISO dates) whenever known; they drive the live dots and countdowns in the viewer's browser. An item with neither stays a static estimate.
 - `estimate: true` items must carry an `estimate_basis` (one mono line, for example "Based on last year's schedule").
-- Game order inside the Gaming category: WoW (Retail), Pokemon GO, Pokopia, Aniimo.
+- Game order inside the Gaming category: WoW (Retail), WoW (Forever), Pokemon GO, Pokopia, Aniimo.
 - A game with nothing in the window keeps its object with empty lists; the page shows an empty-state callout using `typical_lead_time`.
 
 ## Build and publish

@@ -34,6 +34,11 @@ GAME_META = {
         "display": "World of Warcraft",
         "calendar": "https://www.wowhead.com/events",
     },
+    "WoW (Forever)": {
+        "accent": "#8C6BC8",
+        "display": "World of Warcraft: Forever",
+        "calendar": "https://www.wowhead.com/forever",
+    },
     "Pokemon GO": {
         "accent": "#3D9BE9",
         "display": "Pokémon GO",
@@ -53,6 +58,7 @@ GAME_META = {
 
 GAME_TAGS = {
     "WoW (Retail)": "Retail",
+    "WoW (Forever)": "Forever",
     "Pokemon GO": "Niantic",
     "Aniimo": "Pawprint",
 }
