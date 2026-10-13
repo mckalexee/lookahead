@@ -1,94 +1,31 @@
 {
-  "run_date": "2026-10-06",
-  "window_start": "2026-10-06",
-  "window_end": "2026-11-10",
-  "window_display": "Oct 6 - Nov 10, 2026",
-  "last_updated_display": "Tue, Oct 6, 2026",
+  "run_date": "2026-10-13",
+  "window_start": "2026-10-13",
+  "window_end": "2026-11-17",
+  "window_display": "Oct 13 - Nov 17, 2026",
+  "last_updated_display": "Tue, Oct 13, 2026",
   "changelog": {
-    "since": "Sep 29",
+    "since": "Oct 6",
     "lines": [
       {
         "verb": "+",
-        "text": "Midnight 12.1.5 now has a date: the Kith'ix raid, Labyrinth of Kindo'jan and Aqir Invasions arrive Oct 13, with Orin's extra weekly Voidcore quest to finish beforehand"
+        "text": "WoW added the Cuddly Gold-Colored Grrgle Twitch drop Oct 13 - Nov 3, the Hexed Witchwick ($25-$50) and Whoofle Bramblewing ($25) shop items, and the window now reaches WoW's 22nd Anniversary and Legion Timewalking on Nov 17"
       },
       {
         "verb": "+",
-        "text": "Pokemon GO added Minior's Orionids debut Oct 19-24, the Uxie, Mesprit and Azelf Max Battle Day Oct 24 ($4.99), the Night Out Twitch drop Oct 24, and Halloween Part I Oct 27 - Nov 1 with its own GO Pass"
+        "text": "Pokemon GO's Halloween Part II is now official (Shiny Greavard debut, Mega Sableye to Super Max), and GO Wild Area: Global Nov 14-15 ($11.99 ticket) plus Minior Showers: Leonids Nov 14-19 enter the window"
       },
       {
         "verb": "+",
-        "text": "WoW: Forever's Nov 4 launch is now inside the window, and Pokopia's Pumpkaboo's Sweet Surprises runs Oct 17 - Nov 1"
+        "text": "Aniimo's Prismana Carnival Oct 19-25 and Glamour Star rounds through Nov 12 are on the calendar; Pokopia's current build is confirmed as 2.0.0"
       },
       {
-        "verb": "→",
-        "text": "City Safari: Boston is rescheduled as global gameplay for ticket holders Oct 24-25, with refunds only until Oct 20"
+        "verb": "−",
+        "text": "Ended and dropped: World Space Week, Zorua Community Day, the Gnomeregan Run, the PAX Aus keynote and Pokopia's Chansey Plant code; the Abyssal Crown bundle is no longer the featured shop item"
       }
     ]
   },
   "needs_you": [
-    {
-      "date": "2026-10-07",
-      "date_display": "Oct 7",
-      "game": "Pokopia",
-      "action": "Redeem the Chansey Plant code P0K0P1AGARDENS at a Pokemon Center PC before it stops working Oct 7",
-      "urgent": true,
-      "estimate": false,
-      "link": "https://www.serebii.net/pokemonpokopia/serialcode.shtml"
-    },
-    {
-      "date": "2026-10-08",
-      "date_display": "Oct 8",
-      "game": "Pokemon GO",
-      "action": "Claim any unclaimed GO Pass: September rewards before they expire Oct 8 at 10am local",
-      "urgent": true,
-      "estimate": false,
-      "link": "https://pokemongo.com/news/go-pass-september-2026"
-    },
-    {
-      "date": "2026-10-09",
-      "date_display": "Oct 9",
-      "game": "Aniimo",
-      "action": "Use your remaining Aniimo Discovery search attempts before the event closes Oct 9 at 3:59am server time",
-      "urgent": false,
-      "estimate": false,
-      "link": "https://aniimo.com/newslist/detail/100145"
-    },
-    {
-      "date": "2026-10-10",
-      "date_display": "Oct 10",
-      "game": "Pokemon GO",
-      "action": "Evolve Zorua by 9pm local on Community Day for Zoroark's exclusive Fast Attack Sucker Punch; the $1.99 Special Research is only worth buying before the 2-5pm event",
-      "urgent": false,
-      "estimate": false,
-      "link": "https://pokemongo.com/news/communityday-october-2026-zorua"
-    },
-    {
-      "date": "2026-10-12",
-      "date_display": "Oct 12",
-      "game": "Pokemon GO",
-      "action": "Complete and claim the free World Space Week Timed Research (Astronaut Pikachu) by Oct 12 at 11:59pm local",
-      "urgent": false,
-      "estimate": false,
-      "link": "https://pokemongo.com/news/world-space-week-2026"
-    },
-    {
-      "date": "2026-10-13",
-      "date_display": "Oct 13",
-      "game": "WoW",
-      "action": "Turn in Orin Straylight's \"In the Catalyst's Shadow\" and \"Prismatic Potential\" before Oct 13 maintenance so the extra weekly Nebulous Voidcore unlocks with 12.1.5",
-      "urgent": false,
-      "estimate": false,
-      "link": "https://worldofwarcraft.blizzard.com/en-us/news/24307306"
-    },
-    {
-      "date": "2026-10-13",
-      "date_display": "Oct 13",
-      "game": "Pokemon GO",
-      "action": "Hatch with the GO Pass Deluxe: September Timed Incubator before it expires Oct 13 at 10am local",
-      "urgent": false,
-      "estimate": false,
-      "link": "https://pokemongo.com/news/go-pass-september-2026"
-    },
     {
       "date": "2026-10-17",
       "date_display": "Oct 17",
@@ -120,7 +57,7 @@
       "date": "2026-10-20",
       "date_display": "Oct 20",
       "game": "Pokemon GO",
-      "action": "Visit a participating Best Buy, GameStop or Target to pick up the TCG 30th Celebration Timed Research by Oct 20 at 10pm local (claim by Nov 20); redeem a store-bought GO gift card by Oct 31 for the Gengar Knit Cap",
+      "action": "Open the game inside a participating Best Buy, GameStop or Target to pick up the TCG 30th Celebration Timed Research by Oct 20 at 10pm local (claim by Nov 20); redeem a store-bought GO gift card by Oct 31 for the Gengar Knit Cap",
       "urgent": false,
       "estimate": false,
       "link": "https://pokemongo.com/news/tcg-30th-celebration-event"
@@ -147,7 +84,7 @@
       "date": "2026-10-27",
       "date_display": "Oct 27",
       "game": "WoW Forever",
-      "action": "Early Name Reservation opens Oct 27 (through Nov 3) for upgrade buyers; two-part names are region unique and go first come, first served",
+      "action": "Early Name Reservation opens Oct 27 (through Nov 3) for upgrade buyers; two-part names are first come, first served",
       "urgent": false,
       "estimate": false,
       "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth"
@@ -156,7 +93,7 @@
       "date": "2026-10-28",
       "date_display": "Oct 28",
       "game": "Aniimo",
-      "action": "Spend Windborn Stamps in the Limited Time Shop before Part I ends Oct 28 at 11:59pm server time, when leftovers convert to Credits; Journey Chronicles login gifts close Oct 29 at 3:59am",
+      "action": "Spend Windborn Stamps and claim Season Achievement rewards before Part I ends Oct 28 at 7:59pm on the Americas server (11:59pm UTC), when leftovers convert to Credits; Journey Chronicles login gifts close Oct 29 at 3:59am server time",
       "urgent": false,
       "estimate": true,
       "link": "https://aniimotools.dev/guides/october-29-update/"
@@ -182,6 +119,15 @@
     {
       "date": "2026-11-03",
       "date_display": "Nov 3",
+      "game": "WoW",
+      "action": "Watch 4 hours of any World of Warcraft Twitch stream with a linked Battle.net account before Nov 3 at 10am PST to claim the Cuddly Gold-Colored Grrgle housing decor",
+      "urgent": false,
+      "estimate": false,
+      "link": "https://worldofwarcraft.blizzard.com/en-us/news/24302098/twitch-drop-get-the-cuddly-gold-colored-grrgle-housing-decor-item-october-13"
+    },
+    {
+      "date": "2026-11-03",
+      "date_display": "Nov 3",
       "game": "Pokemon GO",
       "action": "Rank up GO Pass: October before rank earning stops Nov 3 at 10am local, using the uncapped GO Points Oct 31 - Nov 1; rewards expire Nov 5, and the Deluxe Lucky Trinket must be used by Nov 8",
       "urgent": false,
@@ -195,7 +141,16 @@
       "action": "Rank up GO Pass: Halloween 2026 before it ends Nov 5 at 8pm local; unlocked rewards expire Nov 7 at 8pm",
       "urgent": false,
       "estimate": false,
-      "link": "https://pokemongo.com/news/halloween-part-1-2026"
+      "link": "https://pokemongo.com/news/halloween-part-2-2026"
+    },
+    {
+      "date": "2026-11-14",
+      "date_display": "Nov 14",
+      "game": "Pokemon GO",
+      "action": "Buy the $11.99 GO Wild Area: Global ticket on the Web Store before Nov 14 if you want the Gigantamax Duraludon Special Research, Shiny boost and 6 Special Trades a day across both event days",
+      "urgent": false,
+      "estimate": false,
+      "link": "https://pokemongo.com/en/gowildarea"
     }
   ],
   "categories": [
@@ -208,11 +163,26 @@
           "timeline": [
             {
               "state": "active",
+              "start": "2026-10-13",
+              "end": null,
+              "date_display": "Live Oct 13",
+              "title": "Midnight 12.1.5: The Promise of Tomorrow",
+              "detail": "The Unbinding of Kith'ix single-boss raid, the nine-chamber Labyrinth of Kindo'jan, Aqir Invasions in Eversong and Zul'Aman, Keystone Myth and a new campaign go live with Oct 13 maintenance; the crest cap lifts and Ascendant Venomstones unlock the week of Oct 20.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24307306/midnights-1215-content-update-arrives-october-13",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png",
+              "image_reliable": true
+            },
+            {
+              "state": "active",
               "start": "2026-08-18",
               "end": null,
               "date_display": "Live now",
               "title": "Midnight Season 2 and the Venomous Abyss",
-              "detail": "Season 2 continues with the Venomous Abyss raid and a Mythic+ pool that gets a mid-season refresh and Keystone Myth on Oct 13.",
+              "detail": "Season 2 continues with the Venomous Abyss raid and a mid-season Mythic+ refresh; Blizzard has not announced a Season 2 end date.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -222,18 +192,18 @@
               "image_reliable": true
             },
             {
-              "state": "upcoming",
+              "state": "active",
               "start": "2026-10-13",
-              "end": null,
-              "date_display": "Oct 13",
-              "title": "Midnight 12.1.5: The Promise of Tomorrow",
-              "detail": "The Unbinding of Kith'ix single-boss raid, the nine-chamber Labyrinth of Kindo'jan, Aqir Invasions in Eversong and Zul'Aman, Keystone Myth and a new campaign arrive with weekly maintenance Oct 13.",
+              "end": "2026-11-03",
+              "date_display": "Oct 13 - Nov 3",
+              "title": "Twitch Drop: Cuddly Gold-Colored Grrgle decor",
+              "detail": "Watch 4 hours of any WoW stream on Twitch between Oct 13 at 10:00 a.m. PDT and Nov 3 at 10:00 a.m. PST with linked accounts, then buy extra copies from Dennia Silvertongue in Silvermoon.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24307306",
-              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png",
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24302098/twitch-drop-get-the-cuddly-gold-colored-grrgle-housing-decor-item-october-13",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png",
               "image_reliable": true
             },
             {
@@ -242,7 +212,7 @@
               "end": "2026-10-31",
               "date_display": "Oct 1-31",
               "title": "Trading Post: Costumed Calamity in October",
-              "detail": "October's stock has the Bilebound Ur'zul mount, the Headless Horseman's Hallowed Charger and the Archmage's Familiar cat; fill the Traveler's Log for Ensemble: Thornshadow Assassin's Attire before the Oct 31 rotation.",
+              "detail": "Fill the Traveler's Log for Ensemble: Thornshadow Assassin's Attire and spend or freeze Tender before the stock changes over on Nov 1; November's lineup is not posted yet.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -252,61 +222,16 @@
               "image_reliable": true
             },
             {
-              "state": "active",
-              "start": "2026-10-03",
-              "end": "2026-10-10",
-              "date_display": "Oct 3-10",
-              "title": "Darkmoon Faire (October)",
-              "detail": "Ride the carousel for the XP buff and turn in profession quests before the Faire packs up Oct 10.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://www.wowhead.com/event=479/darkmoon-faire",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
-              "state": "active",
-              "start": "2026-10-06",
-              "end": "2026-10-13",
-              "date_display": "Oct 6-13",
-              "title": "Mists of Pandaria Timewalking",
-              "detail": "Run five Timewalking dungeons for the weekly quest's Heroic raid cache and spend Timewarped Badges at the Pandaria vendors.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://www.wowhead.com/event=643/timewalking-dungeon-event",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-10-10",
-              "end": "2026-10-12",
-              "date_display": "Oct 10-12",
-              "title": "The Great Gnomeregan Run (micro-holiday)",
-              "detail": "Make a level-one Gnome and run from Gnomeregan to Booty Bay with the crowd for the weekend-only buffs and title.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://www.wowhead.com/event=696/the-great-gnomeregan-run",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
               "state": "upcoming",
               "start": "2026-10-19",
               "end": "2026-11-02",
               "date_display": "Oct 19 - Nov 2",
               "title": "Hallow's End",
-              "detail": "Fight the Headless Horseman daily for his mount and farm Tricky Treats for the holiday vendors; Blizzard has not posted dates yet.",
+              "detail": "Fight the Headless Horseman daily for his mount and farm Tricky Treats for the holiday vendors; Blizzard has not posted this year's dates or new rewards yet.",
               "paid": false,
               "price": null,
               "estimate": true,
-              "estimate_basis": "Wowhead lists Oct 19 - Nov 2; Darmory's US calendar lists Oct 18 - Nov 1",
+              "estimate_basis": "Wowhead's in-game calendar lists Oct 19 - Nov 2; no Blizzard post yet",
               "link": "https://www.wowhead.com/event=324/hallows-end",
               "image_url": null,
               "image_reliable": false
@@ -332,12 +257,12 @@
               "end": "2026-11-07",
               "date_display": "Oct 31 - Nov 7",
               "title": "Darkmoon Faire (November)",
-              "detail": "The Faire returns for its November week with the Trading Post rotation.",
+              "detail": "Ride the carousel for the XP buff and turn in profession quests during the Faire's November week.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://darmory.com/events/calendar",
+              "link": "https://www.wowhead.com/event=479/darkmoon-faire",
               "image_url": null,
               "image_reliable": false
             },
@@ -362,7 +287,7 @@
               "end": "2026-11-10",
               "date_display": "Nov 3-10",
               "title": "Midnight Dungeon Event",
-              "detail": "Complete four Mythic Midnight dungeons for the weekly bonus-event reward.",
+              "detail": "The final boss of every Midnight dungeon drops an extra item; complete four Mythic runs for the weekly bonus-event cache.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -372,33 +297,93 @@
               "image_reliable": false
             },
             {
-              "state": "active",
-              "start": "2026-09-15",
-              "end": null,
-              "date_display": "In the shop now",
-              "title": "Abyssal Crown Collection",
-              "detail": "Azshara's raiment and the void-touched Zothwing mount are still the featured bundle on the Battle.net shop.",
-              "paid": true,
+              "state": "upcoming",
+              "start": "2026-11-12",
+              "end": "2026-11-13",
+              "date_display": "Nov 12-13",
+              "title": "Moonkin Festival (micro-holiday)",
+              "detail": "Spend a day as a moonkin in Moonglade for the micro-holiday's toys and achievements.",
+              "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24276747/corruption-calls-with-the-abyssal-crown-collection",
-              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/rk/RKYWGCNNKZY61776458479940.png",
+              "link": "https://www.wowhead.com/event=694/moonkin-festival",
+              "image_url": null,
+              "image_reliable": false
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-11-17",
+              "end": "2026-12-08",
+              "date_display": "Nov 17 - Dec 8",
+              "title": "WoW's 22nd Anniversary",
+              "detail": "The anniversary celebration opens on the window's last day and runs to Dec 8; Blizzard has not posted this year's rewards yet.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://www.wowhead.com/event=1808/wows-22nd-anniversary",
+              "image_url": null,
+              "image_reliable": false
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-11-17",
+              "end": "2026-11-24",
+              "date_display": "Nov 17-24",
+              "title": "Legion Timewalking",
+              "detail": "Legion Timewalking returns with the Mage Tower challenge and its dungeon week starting Nov 17.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://www.wowhead.com/event=1263/timewalking-dungeon-event",
+              "image_url": null,
+              "image_reliable": false
+            },
+            {
+              "state": "active",
+              "start": "2026-10-08",
+              "end": null,
+              "date_display": "In the shop now",
+              "title": "Hexed Witchwick Collection",
+              "detail": "Four broom-mount and transmog packs (Blushing, Autumnal, Wintry, Moonlit) sell for $25 each or $50 for all four, with the price adjusting for pieces you already own.",
+              "paid": true,
+              "price": "$25-$50",
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24310651/brew-up-trouble-with-the-hexed-witchwick-collection",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png",
+              "image_reliable": true
+            },
+            {
+              "state": "active",
+              "start": "2026-10-08",
+              "end": null,
+              "date_display": "In the shop now",
+              "title": "Whoofle Bramblewing owl mount",
+              "detail": "The new $25 owl mount is shared across all modern WoW characters and works as a ground mount until flying unlocks.",
+              "paid": true,
+              "price": "$25",
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24310650/owltastic-adventures-await-with-whoofle-bramblewing",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png",
               "image_reliable": true
             }
           ],
           "weekly_rhythm": [
-            "Week of Oct 6 (now): Mists of Pandaria Timewalking; PvP Brawl: Arathi Blizzard; Darkmoon Faire through Oct 10; Gnomeregan Run Oct 10-12; finish Orin Straylight's \"In the Catalyst's Shadow\" and \"Prismatic Potential\" quests before reset for the extra weekly Nebulous Voidcore",
-            "Week of Oct 13: 12.1.5 goes live with maintenance; Battleground and Pet Battle Bonus Events; PvP Brawl: Gravity Lapse; Hallow's End begins Oct 19 per Wowhead (Oct 18 per Darmory)",
-            "Week of Oct 20: Delves Bonus Event; PvP Brawl: Deepwind Dunk (Darmory also lists Comp Stomp); the crest cap lifts and Orin's Ascendant Venomstones unlock after maintenance",
-            "Week of Oct 27: Warlords of Draenor Timewalking; PvP Brawl: Shado-Pan Showdown; Trading Post rotates to November on Nov 1; Day of the Dead Nov 1-3; Hallow's End ends Nov 2",
-            "Week of Nov 3: Midnight Dungeon Event; PvP Brawl: Warsong Scramble; Darkmoon Faire through Nov 7; WoW: Forever launches Nov 4",
-            "Nov 10 (window end): Arena Skirmish Bonus Event and PvP Brawl: Cooking Impossible begin at reset"
+            "Week of Oct 13 (now): 12.1.5 goes live with maintenance; Battleground and Pet Battle Bonus Events; PvP Brawl: Gravity Lapse; Orin offers \"Ancient Depths, Ancient Venom\" after maintenance",
+            "Week of Oct 20: Delves Bonus Event; PvP Brawl: Deepwind Dunk; the crest cap lifts and Orin's \"Ascending with Venomstones\" unlocks Ascendant Venomstones; Hallow's End runs from Oct 19",
+            "Week of Oct 27: Warlords of Draenor Timewalking; PvP Brawl: Shado-Pan Showdown; Trading Post rotates to November on Nov 1; Darkmoon Faire from Oct 31; Day of the Dead Nov 1-3; Hallow's End ends Nov 2",
+            "Week of Nov 3: Midnight Dungeon Event; PvP Brawl: Warsong Scramble; Twitch drop ends Nov 3; Darkmoon Faire through Nov 7; WoW: Forever launches Nov 4",
+            "Week of Nov 10: Arena Skirmish Bonus Event; PvP Brawl: Cooking Impossible; Moonkin Festival Nov 12-13",
+            "Nov 17 (window end): WoW's 22nd Anniversary, Legion Timewalking and PvP Brawl: Temple of Hotmogu all begin at reset"
           ],
           "just_past_window": [
-            "Nov 10-17: Arena Skirmish Bonus Event and PvP Brawl: Cooking Impossible; Moonkin Festival Nov 12-13",
-            "Nov 17: WoW's 22nd Anniversary begins (through Dec 8), alongside a Timewalking week and PvP Brawl: Temple of Hotmogu",
-            "Nov 22-29: Pilgrim's Bounty; World Quest Bonus Event and PvP Brawl: Southshore vs. Tarren Mill from Nov 24"
+            "Nov 22-29: Pilgrim's Bounty",
+            "Nov 24 - Dec 1: World Quest Bonus Event and PvP Brawl: Southshore vs. Tarren Mill",
+            "Dec 8: WoW's 22nd Anniversary ends; Battle for Azeroth Timewalking and PvP Brawl: Packed House begin"
           ]
         },
         {
@@ -411,7 +396,7 @@
               "end": "2026-10-21",
               "date_display": "Sep 17 - Oct 21",
               "title": "WoW: Forever beta",
-              "detail": "Level cap is 30 since the Oct 1 build; Epic Pack and Collection buyers are flagged in, opt-in invites continue, and Oct 21 is the last full day of testing (the open Server Slam window is still unannounced).",
+              "detail": "Oct 21 is the last full day of testing for Epic Pack and Collection buyers and opt-in invitees; the open Server Slam Blizzard promised still has no date as of Oct 13.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -422,32 +407,62 @@
             },
             {
               "state": "upcoming",
-              "start": "2026-10-08",
-              "end": "2026-10-08",
-              "date_display": "Oct 8, 6pm PDT",
-              "title": "PAX Aus keynote: new Forever dungeon deep dive",
-              "detail": "Holly Longdale and Clay Stone stream the Storytime keynote with a behind-the-scenes look at a new Forever dungeon on the Warcraft Twitch channel, Oct 8 from 6:00 to 7:30 p.m. PDT.",
+              "start": "2026-10-20",
+              "end": "2026-11-11",
+              "date_display": "From Oct 20",
+              "title": "Invite-A-Friend Launch Codes start emailing",
+              "detail": "Codes email to Heroic (one) and Epic or Collection (three) buyers from Oct 20; forward them so friends can play launch week Nov 4-11 without a subscription.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24302503/watch-holly-longdale-and-clay-stones-keynote-presentations-live-from-pax-aus-9-11-october",
-              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg",
-              "image_reliable": true
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+              "image_url": null,
+              "image_reliable": false
             },
             {
               "state": "upcoming",
-              "start": "2026-10-08",
+              "start": "2026-10-23",
               "end": "2026-10-23",
-              "date_display": "Oct 8-11, stream Oct 23",
-              "title": "Escape Together: Scarlet Monastery escape room",
-              "detail": "Book the Scarlet Monastery escape room at Escape Manor in Toronto Oct 8-11, or watch the Horde vs. Alliance showdown on Warcraft Twitch and YouTube Oct 23 (stream time still to be announced).",
+              "date_display": "Oct 23, time TBA",
+              "title": "Escape Together: Scarlet Monastery showdown stream",
+              "detail": "Watch Horde and Alliance teams race through head-to-head challenges and a Scarlet Monastery escape room on the Warcraft Twitch and YouTube channels; Blizzard has not announced the stream time.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
               "link": "https://worldofwarcraft.blizzard.com/en-us/news/24302094/world-of-warcraft-forever-escape-together-comes-to-toronto",
               "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/96/96CYIADI0CPD1790257550294.png",
+              "image_reliable": true
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-10-27",
+              "end": "2026-11-03",
+              "date_display": "Oct 27 - Nov 3",
+              "title": "Early Name Reservation",
+              "detail": "Any upgrade buyer can create and customize up to three characters and lock two-part names, first come first served, before launch.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png",
+              "image_reliable": true
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-11-04",
+              "end": null,
+              "date_display": "Nov 4, 3:00 p.m. PST",
+              "title": "WoW: Forever launches",
+              "detail": "Forever opens globally at 3:00 p.m. PST with 4 new zones, 9 new dungeons, the Skyborne race and the 15v15 Darkspear Islands battleground, included with any WoW subscription or Game Time; Epic Pack and Collection buyers get 30 days of Game Time added that day.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png",
               "image_reliable": true
             },
             {
@@ -479,61 +494,15 @@
               "link": "https://worldofwarcraft.blizzard.com/en-us/news/24302498/updated-924-pre-purchase-the-world-of-warcraft-forever-collectors-edition",
               "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/er/ER6Y8721PI771789244626483.png",
               "image_reliable": true
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-10-20",
-              "end": "2026-11-11",
-              "date_display": "From Oct 20",
-              "title": "Invite-A-Friend Launch Codes start emailing",
-              "detail": "Codes email to Heroic (one) and Epic or Collection (three) buyers from Oct 20; forward them so friends can play launch week Nov 4-11 without a subscription.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-10-27",
-              "end": "2026-11-03",
-              "date_display": "Oct 27 - Nov 3",
-              "title": "Early Name Reservation",
-              "detail": "Any upgrade buyer can create and customize up to three characters and lock two-part names, first come first served, before launch.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
-              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png",
-              "image_reliable": true
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-11-04",
-              "end": null,
-              "date_display": "Nov 4, 3:00 p.m. PST",
-              "title": "WoW: Forever launches",
-              "detail": "Forever opens globally at 3:00 p.m. PST with 4 new zones, 9 new dungeons and the Skyborne race, included with any WoW subscription or Game Time; Epic Pack and Collection buyers get 30 days of Game Time added that day.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://worldofwarcraft.blizzard.com/en-us/news/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
-              "image_url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png",
-              "image_reliable": true
             }
           ],
           "weekly_rhythm": [
-            "Beta cadence: realm restarts, Known Issues and Development Notes posts land most weekdays on the Forever forums (see the Wowhead Blue Tracker)",
-            "Rulesets at launch are Normal, PvP and Roleplaying; Hardcore joins sometime after launch",
-            "Per Wowhead's roadmap: the first three raids (Barrow Deeps, Hyjal Summit, Onyxia's Lair) open Dec 9, Hardcore in winter 2026"
+            "Beta cadence: realm restarts, Known Issues and Development Notes posts land most weekdays on the Forever forums (see the Wowhead Blue Tracker); the latest build gives every character 16 Legacy Points to test",
+            "Rulesets at launch are Normal, PvP and Roleplaying; Hardcore joins in winter 2026 per Wowhead's roadmap",
+            "Per Wowhead's roadmap: the first three raids (Barrow Deeps, Hyjal Summit, Onyxia's Lair) open Dec 9",
+            "Invite-A-Friend guests lose access after Nov 11 and need a subscription or Game Time from then on"
           ],
-          "just_past_window": [
-            "Nov 11: Invite-A-Friend launch-week access ends; guests need a subscription or Game Time from here"
-          ]
+          "just_past_window": []
         },
         {
           "game": "Pokemon GO",
@@ -556,6 +525,21 @@
             },
             {
               "state": "active",
+              "start": "2026-10-13",
+              "end": "2026-10-19",
+              "date_display": "Oct 13-19",
+              "title": "Fall Marathon: Buddy Trek",
+              "detail": "Bramblin debuts from Incense and GO Pass tasks, Mega Manectric can reach Super Max level, and the event GO Pass Deluxe is $4.99 ($6.99 with 6 ranks); rewards expire Oct 21 at 8pm local.",
+              "paid": true,
+              "price": "$4.99 Deluxe",
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://pokemongo.com/news/fall-marathon-buddy-trek-2026",
+              "image_url": "https://lh3.googleusercontent.com/M4kOTm3cvwmzkibKybdE7ItO-lG_C4RpMeI-UQJdEH7kOGF36MjUUo_2VVd6QMHmGoUypowGKIzv2f7LBAXjT3qrtYNNYRhX4GszOYp3vw",
+              "image_reliable": true
+            },
+            {
+              "state": "active",
               "start": "2026-10-06",
               "end": "2026-11-03",
               "date_display": "Oct 6 - Nov 3",
@@ -567,21 +551,6 @@
               "estimate_basis": null,
               "link": "https://pokemongo.com/news/go-pass-october-2026",
               "image_url": "https://lh3.googleusercontent.com/YI_hCo34fVtgznowncdPRDK3uObq-7nJkPTmsttNh2uBZGkKDqFWvPQFP-9lTLmjkvpb-iHQq-JERqqXXYbVsWryT2gNTWc5_xVf3H0H-3FN",
-              "image_reliable": true
-            },
-            {
-              "state": "active",
-              "start": "2026-09-25",
-              "end": "2027-01-15",
-              "date_display": "Through Jan 15, 2027",
-              "title": "adidas | Pokemon Timed Research",
-              "detail": "Finish the free Timed Research for the adidas avatar items before it expires Jan 15 at 8pm local.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://pokemongo.com/news/pokemon-x-adidas-2026",
-              "image_url": "https://lh3.googleusercontent.com/L-Kp0mvhQ_6rxdgpFz0sKpRJ4pKeVhqqtWuOJsRXu2O1uU8_FmURLvbr8j0K24XcWggFoYItYc3Pb6RS8LVMOn2S5QvC4cBKSYHXV3reP58",
               "image_reliable": true
             },
             {
@@ -601,47 +570,17 @@
             },
             {
               "state": "active",
-              "start": "2026-10-04",
-              "end": "2026-10-10",
-              "date_display": "Oct 4-10",
-              "title": "World Space Week",
-              "detail": "Astronaut Pikachu debuts in one-star raids and the free Timed Research, which must be claimed by Oct 12 at 11:59pm local.",
+              "start": "2026-09-25",
+              "end": "2027-01-15",
+              "date_display": "Through Jan 15, 2027",
+              "title": "adidas | Pokemon Timed Research",
+              "detail": "Pick up the free Timed Research at a participating adidas store by Jan 15 for the jacket and cap, and redeem code ADIDASxPOKEMON on the Web Store for the shoes.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://pokemongo.com/news/world-space-week-2026",
-              "image_url": "https://lh3.googleusercontent.com/AiDIi-NAxX879TxCAX8X6I6EwjrUUajpCN18w4uPXAwSqgbR1y6_awmrDJFY31ljBfh4flc1v5Ma2by0Mt4y77-Q4LCPLnSBEMZIJSS0hvZx",
-              "image_reliable": true
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-10-10",
-              "end": "2026-10-10",
-              "date_display": "Oct 10, 2-5pm",
-              "title": "Zorua Community Day",
-              "detail": "Catch Zorua with 3x XP and 2x Candy, then evolve by 9pm local for Zoroark's exclusive Sucker Punch; the $1.99 Special Research is optional.",
-              "paid": true,
-              "price": "$1.99 research",
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://pokemongo.com/news/communityday-october-2026-zorua",
-              "image_url": "https://lh3.googleusercontent.com/HJT-iQ6qMUmoXYCmtwOqp-68HQFXJFzEiw6R_eqgY9KhKQLdihsIsIIY_Px9DE8-oBEzB0Cr7CKoyk5pX8tyWklwJyyRyH0GiBrBNRc82YA",
-              "image_reliable": true
-            },
-            {
-              "state": "upcoming",
-              "start": "2026-10-13",
-              "end": "2026-10-19",
-              "date_display": "Oct 13-19",
-              "title": "Fall Marathon: Buddy Trek",
-              "detail": "Bramblin debuts from Incense and GO Pass tasks, Mega Manectric can reach Super Max level, and the event GO Pass Deluxe is $4.99 ($6.99 with 6 ranks); rewards expire Oct 21 at 8pm local.",
-              "paid": true,
-              "price": "$4.99 Deluxe",
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://pokemongo.com/news/fall-marathon-buddy-trek-2026",
-              "image_url": "https://lh3.googleusercontent.com/M4kOTm3cvwmzkibKybdE7ItO-lG_C4RpMeI-UQJdEH7kOGF36MjUUo_2VVd6QMHmGoUypowGKIzv2f7LBAXjT3qrtYNNYRhX4GszOYp3vw",
+              "link": "https://pokemongo.com/news/pokemon-x-adidas-2026",
+              "image_url": "https://lh3.googleusercontent.com/L-Kp0mvhQ_6rxdgpFz0sKpRJ4pKeVhqqtWuOJsRXu2O1uU8_FmURLvbr8j0K24XcWggFoYItYc3Pb6RS8LVMOn2S5QvC4cBKSYHXV3reP58",
               "image_reliable": true
             },
             {
@@ -755,30 +694,60 @@
               "end": "2026-11-05",
               "date_display": "Nov 1-5",
               "title": "Halloween 2026 Part II",
-              "detail": "Part II runs Nov 1 at 10am through Nov 5 at 8pm local, closing out the Halloween GO Pass; details are not posted yet.",
+              "detail": "Shiny Greavard debuts in the wild and research, Mega Sableye can reach Super Max level with the Night Shade+ Charged Attack, and the shared Halloween GO Pass closes Nov 5 at 8pm local.",
               "paid": false,
               "price": null,
               "estimate": false,
               "estimate_basis": null,
-              "link": "https://leekduck.com/events/halloween-2026-part-2/",
+              "link": "https://pokemongo.com/news/halloween-part-2-2026",
+              "image_url": "https://lh3.googleusercontent.com/4QN-7EtDk7S7dxL9bKLbsUF7lbTaUTntnGzOG8qDk4xxOQFyY4dKt3tQQ2msv37JhacLDFrawLGXVAv_kv3tzE_kTXiIh_HbskFdKhNCHjlh",
+              "image_reliable": true
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-11-14",
+              "end": "2026-11-15",
+              "date_display": "Nov 14-15, 10am-6pm",
+              "title": "Pokemon GO Wild Area 2026: Global",
+              "detail": "Gigantamax Duraludon, Dynamax Dialga (Nov 14) and Dynamax Palkia (Nov 15) debut with Steel and Dragon habitat hours and GO Safari Balls for everyone; the optional $11.99 ticket adds Special Research, a Shiny boost and 6 Special Trades a day.",
+              "paid": true,
+              "price": "$11.99 ticket",
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://pokemongo.com/en/gowildarea",
+              "image_url": "https://lh3.googleusercontent.com/YUIF2HkGZlw3tWumDXClx0cVYphD-ugVYTs5VBU5-ccb5o-1UWVTy8NYqJboA-fVPrmtncsb7Ql_6eebA8I-YyxFtIHO2yIiMwmb5qlg3JA",
+              "image_reliable": true
+            },
+            {
+              "state": "upcoming",
+              "start": "2026-11-14",
+              "end": "2026-11-19",
+              "date_display": "Nov 14-19",
+              "title": "Minior Showers: Leonids",
+              "detail": "A second Minior core color debuts from Nov 14 at 5pm through Nov 19 at 11:59pm local, with boosted spawns 5-9pm nightly.",
+              "paid": false,
+              "price": null,
+              "estimate": false,
+              "estimate_basis": null,
+              "link": "https://pokemongo.com/news/minior-meteor-showers-2026",
               "image_url": null,
               "image_reliable": false
             }
           ],
           "weekly_rhythm": [
-            "Spotlight Hour is Thursdays 6-7pm local; Raid Hour is Wednesdays 6-7pm local; Max Monday runs 6am-9pm local",
-            "Spotlight Hours: Elgyem Oct 8 (2x catch Candy); Stufful Oct 15 (2x transfer Candy); Morelull Oct 22 (2x catch Stardust); Gastly Oct 29 (2x evolve XP); November not yet posted",
-            "Max Mondays: Rookidee Oct 12; Sneasel Oct 19; Sableye Oct 26",
-            "5-star raids: Yveltal Oct 7-13; Dialga Oct 14-20; Palkia Oct 21-27; Giratina (Origin) Oct 28 - Nov 3; Nov 4-10 not yet announced",
-            "Raid Hours: Yveltal Oct 7; Dialga Oct 14; Palkia Oct 21; Giratina (Origin) Oct 28",
-            "Mega Raids: Blastoise Oct 7-13; Dragonite Oct 14-20; Charizard X and Y Oct 21-27; Sableye Oct 28 - Nov 3; Shadow Landorus in weekend Shadow Raids Oct 7 - Nov 3",
-            "GO Battle League (rotates Tuesdays 1pm PDT): Mega Editions of all three leagues Oct 6-13; Great, Ultra Mega and Little Cup Oct 13-20; Ultra, Master Mega and Fantasy Cup Oct 20-27; Master and Mega Halloween Cup Oct 27 - Nov 3; Mega Editions again Nov 3-10; GO Battle Thursdays give 4x Stardust and 10 sets",
-            "In-person: Wild Area 2026 in Sendai and Mexico City Nov 6-8 (ticketed, on site, no US stop); Season 24's last Community Day is Nov 21"
+            "Spotlight Hour is Thursdays 6-7pm local; Raid Hour is Wednesdays 6-7pm local; Max Monday runs 6-7pm local",
+            "Spotlight Hours: Stufful Oct 15 (2x transfer Candy); Morelull Oct 22 (2x catch Stardust); Gastly Oct 29 (2x evolve XP); November not yet posted",
+            "Max Mondays: Sneasel Oct 19; Sableye Oct 26; November not yet posted",
+            "5-star raids: Dialga Oct 14-20; Palkia Oct 21-27; Giratina (Origin) Oct 28 - Nov 3; Nov 4-13 not yet announced; Wild Area Global brings Zekrom and White Kyurem Nov 14, Reshiram and Black Kyurem Nov 15",
+            "Raid Hours: Dialga Oct 14; Palkia Oct 21; Giratina (Origin) Oct 28",
+            "Mega Raids: Dragonite Oct 14-20; Charizard X and Y Oct 21-27; Sableye Oct 28 - Nov 3; Shadow Landorus in weekend Shadow Raids through Nov 3",
+            "GO Battle League (rotates Tuesdays 1pm PDT): Great, Ultra Mega and Little Cup Oct 13-20; Ultra, Master Mega and Fantasy Cup Oct 20-27; Master and Mega Halloween Cup Oct 27 - Nov 3; Mega Editions of all three leagues Nov 3-10; Great, Ultra Mega and 2026 GO LAIC Cup Nov 10-17; Ultra, Master Mega and LAIC Cup Nov 17-24",
+            "In-person and regional: Wild Area 2026 in Sendai and Mexico City Nov 6-8 (ticketed, on site, no US stop); Festival of Lights Nov 6-8 is India only; Daily Discoveries pause Nov 9-15 ahead of Wild Area Global per Leek Duck"
           ],
           "just_past_window": [
-            "Nov 10-17: GO Battle League Great League, Ultra League: Mega Edition and the 2026 GO LAIC Cup",
-            "Nov 14-15: Pokemon GO Wild Area 2026: Global; Minior Showers: Leonids Nov 14-19",
-            "Nov 21: November Community Day (featured Pokemon not announced)"
+            "Nov 21: November Community Day, 2-5pm local (featured Pokemon not announced)",
+            "Nov 24 - Dec 1: GO Battle League Master League and Mega Catch Cup close out the season",
+            "Nov 28: Super Mega Raid Day, 2-5pm local; Twilight Trails ends Dec 1 at 10am local"
           ]
         },
         {
@@ -786,21 +755,6 @@
           "typical_lead_time": "The Pokemon Company announces Pokopia events about 2-3 weeks ahead on pokemon.com",
           "current_version": "2.0.0",
           "timeline": [
-            {
-              "state": "active",
-              "start": null,
-              "end": "2026-10-07",
-              "date_display": "Through Oct 7",
-              "title": "Mystery Gift: Chansey Plant",
-              "detail": "Redeem code P0K0P1AGARDENS at a Pokemon Center PC before it stops working Oct 7.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://www.serebii.net/pokemonpokopia/serialcode.shtml",
-              "image_url": null,
-              "image_reliable": false
-            },
             {
               "state": "upcoming",
               "start": "2026-10-17",
@@ -813,7 +767,7 @@
               "estimate": false,
               "estimate_basis": null,
               "link": "https://www.pokemon.com/us/news/gather-pumpkin-candy-for-pumpkaboo-in-pokemon-pokopia",
-              "image_url": "https://mcdn.pokemon.com/pokemon-prod/image/upload/c_limit,w_1920/f_auto/v1/live/pcom-cms/static-assets/cms3/us/img/video-games/tiles/pokemon-pokopia/2026/09/30/pokemon-pokopia-169.png",
+              "image_url": "https://mcdn.pokemon.com/image/upload/c_limit,w_1439/f_auto/q_auto:best/v1/live/pcom-cms/static-assets/cms3/us/img/video-games/tiles/pokemon-pokopia/2026/09/30/pokemon-pokopia-169.png",
               "image_reliable": true
             },
             {
@@ -837,7 +791,7 @@
               "end": null,
               "date_display": "On sale now",
               "title": "Expansion Pass: Part 1 out now, Part 2 late 2026",
-              "detail": "The $34.99 pass includes Bubbly Basin now, accessories and new Pokemon in Part 2 late this year, and a third town in 2027; buying by Aug 31, 2027 emails a code for 30 rare Pokemetal ingots.",
+              "detail": "The pass includes Bubbly Basin now, accessories and new Pokemon in Part 2 late this year (no new town), and a third town in 2027; buying by Aug 31, 2027 emails a code for 30 rare Pokemetal ingots, valid through Sep 30, 2027.",
               "paid": true,
               "price": "$34.99",
               "estimate": false,
@@ -847,7 +801,10 @@
               "image_reliable": false
             }
           ],
-          "weekly_rhythm": [],
+          "weekly_rhythm": [
+            "Version 2.0.0 (Aug 5) is still the current build: Dive, Bubbly Basin, the portal pod and bulk storage moves; no newer patch has shipped",
+            "No Mystery Gift codes are active for US players; the Berry Furniture Set code from Oct 29 is for Japan and Korea retail bundles only"
+          ],
           "just_past_window": [
             "Expansion Pass Part 2 is still only dated \"late 2026\": accessories, new furniture and Pokemon, no new town"
           ]
@@ -862,37 +819,7 @@
               "end": "2026-12-09",
               "date_display": "Sep 25 - Dec 9",
               "title": "Windchaser's Departure: Irisalis",
-              "detail": "Collect weekly Iris Petals to craft the Legendary Aniipod for Irisalis, then the Blessing Gifts pod for a guaranteed Perfect-potential Sparkling capture, before Dec 9 at 7:59pm server time.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://aniimo.com/newslist/detail/100145",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
-              "state": "active",
-              "start": "2026-09-25",
-              "end": "2026-10-09",
-              "date_display": "Through Oct 9",
-              "title": "Aniimo Discovery",
-              "detail": "Spend the Institute's free Search Attempts (they do not stack) to track and capture the new Aniimo before Oct 9 at 3:59am server time.",
-              "paid": false,
-              "price": null,
-              "estimate": false,
-              "estimate_basis": null,
-              "link": "https://aniimo.com/newslist/detail/100145",
-              "image_url": null,
-              "image_reliable": false
-            },
-            {
-              "state": "active",
-              "start": "2026-10-05",
-              "end": "2026-10-12",
-              "date_display": "Oct 5-12",
-              "title": "Vein Abundance: Berylline Vale",
-              "detail": "Prismana Form Waleetle spawns in Berylline Vale through Oct 12 at 3:59am server time.",
+              "detail": "Collect weekly Iris Petals to craft the Legendary Aniipod for Irisalis, then the Blessing Gifts pod for a guaranteed Perfect-potential Sparkling capture, before Dec 9 at 7:59pm on the Americas server.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -907,7 +834,7 @@
               "end": "2026-10-29",
               "date_display": "Oct 1-29",
               "title": "Journey Chronicles login event",
-              "detail": "Log in on enough days to claim every travel gift before the event closes Oct 29 at 3:59am server time.",
+              "detail": "Log in on enough days to claim every travel gift, including the day-7 Sparkling Egg, before the event closes Oct 29 at 3:59am server time.",
               "paid": false,
               "price": null,
               "estimate": false,
@@ -918,11 +845,26 @@
             },
             {
               "state": "upcoming",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
+              "date_display": "Oct 19-25",
+              "title": "Vein Abundance: Prismana Carnival",
+              "detail": "Prismana Glynsera, Melloblum, Waleetle and Inferlupa all spawn at once in their regions to close out Part I.",
+              "paid": false,
+              "price": null,
+              "estimate": true,
+              "estimate_basis": "Official Korean launch poster and in-game calendar via AniimoTools; no English notice yet",
+              "link": "https://aniimotools.dev/guides/event-calendar/",
+              "image_url": null,
+              "image_reliable": false
+            },
+            {
+              "state": "upcoming",
               "start": "2026-10-29",
-              "end": null,
-              "date_display": "Oct 29",
+              "end": "2026-12-09",
+              "date_display": "Oct 29 - Dec 9",
               "title": "Season 1 Part II and a new region",
-              "detail": "The in-game Season Overview promises a brand-new region with Part II; unspent Windborn Stamps convert to Credits when Part I ends Oct 28.",
+              "detail": "The in-game Season Overview promises a brand-new region with Part II after Oct 29 maintenance; unspent Windborn Stamps convert to Credits when Part I ends Oct 28, and Windchaser Stamps start from zero.",
               "paid": false,
               "price": null,
               "estimate": true,
@@ -948,12 +890,14 @@
             }
           ],
           "weekly_rhythm": [
-            "Holo-Battle Interlink runs weekly from Thursday 04:00 to Monday 03:59 server time, with Star Rank and Support rewards resetting each cycle",
-            "Egg Heist Chaos Mode is open for Tier IV Elite Egg Seekers and costs a Chaos Ticket per run",
-            "Shop features the Radiant Waveglow appearance set (980 Lumin Crystals) and the Laurel Moon Blessing pack (280)",
-            "Per the in-game calendar (unofficial): Glamour Star rounds Oct 9-15 and Oct 23-29, Eggceleration weekends Oct 9-11, 16-18 and 23-25, Vein Abundance in Nimbus Fields Oct 12-18"
+            "Holo-Battle Interlink runs weekly from Thursday 04:00 to Monday 03:59 server time, with Star Rank and Support rewards resetting each cycle; Hatch Haste halves egg timers every Friday to Sunday",
+            "Shop features the Frostburst Punk set (680 Lumin Crystals) and the Forest of Butterfly Dreams appearance since the Sep 30 patch; the Radiant Waveglow set (980) and Laurel Moon Blessing pack (280) remain",
+            "Per the in-game calendar (unofficial): Vein Abundance in Nimbus Fields Oct 12-18 (Prismana Inferlupa), Glamour Star Oct 9-15, Oct 23-29 and Nov 6-12, Who's That Aniimo? Oct 16-22 and Oct 30 - Nov 5",
+            "Dev Feedback (Oct 12): Operation: Egg Heist gets small updates every two weeks, the second half of Season 1 adds casual competitive modes and new Collectible sources, and version 1.1 (no date) fixes Irisalis's Innate Potential"
           ],
-          "just_past_window": []
+          "just_past_window": [
+            "Nov 20-26: Glamour Star round five, per the in-game calendar"
+          ]
         }
       ]
     }
